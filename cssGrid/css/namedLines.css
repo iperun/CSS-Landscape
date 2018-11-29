@@ -42,7 +42,10 @@ html, body {
   grid-column: main;
 }
 
-.menu {}
+.menu {
+  justify-self: center;
+  align-self: start;
+}
 
 .content {
   grid-area: content;
