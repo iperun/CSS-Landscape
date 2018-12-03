@@ -22,13 +22,26 @@ html, body {
   background-color: #88d8b0;
 }
 
+.container > div:nth-child(4) {
+  background-color: #ff6f69;
+}
+
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  }
+}
 
 .home {
   margin-right: auto;
+}
+
+.container>div {
+  flex: 1;
+  /*flex-grow, flex-shrink, flex-basis */
+}
+
+.container>.search {
+  flex: 2;
 }
