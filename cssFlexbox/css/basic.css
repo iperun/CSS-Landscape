@@ -25,4 +25,6 @@ html, body {
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
