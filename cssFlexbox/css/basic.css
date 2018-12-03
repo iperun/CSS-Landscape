@@ -7,7 +7,7 @@
 
 html, body {
   background-color: #ffeead;
-  margin: 10px;
+  height: 100%;
 }
 
 .container>div:nth-child(1) {
@@ -31,10 +31,18 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout {
+  align-self: flex-start;
 }
 
 .home {
   margin-right: auto;
+  align-self: flex-end;
 }
 
 .container>div {
