@@ -33,11 +33,16 @@ html, body {
   display: flex;
 }
 
+.search {
+  order: -1;
+}
+
 .home {
   flex: 1;
   /* flex-basis: 200px // base width of element.
   flex-grow: 1 // how much of extra space is destributed
   flex-shrink: 1 // both shrink at equal rate */
+  order: 5
 }
 
 .logout {
