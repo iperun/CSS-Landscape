@@ -16,17 +16,6 @@ body {
   margin: 40px 0;
 }
 
-body::before {
-  position: fixed;
-  content: "";
-  height: 400px;
-  width: 400px;
-  top: 20px;
-  right: 30px;
-  background: url('../_theme-styles/img/CSS30_Logo.png') no-repeat;
-  background-size: 100%;
-  opacity: .2;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bubblegum Sans', cursive;
