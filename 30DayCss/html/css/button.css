@@ -202,3 +202,60 @@ button {
 }
 
 /* =======Animated Buttons========= */
+.animated-button-1 {
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  background-color: teal;
+  background-image: url(../img/pat.png);
+  background-size: 20px 16px;
+  border: solid 1px #555;
+  color: #ffe500;
+  text-shadow: 1px 1px 0px black;
+  font-weight: 900;
+}
+
+.animated-button-1:hover {
+  animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 0;
+  }
+}
+
+.animated-button-2 {
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  background-color: teal;
+  background-size: 20px 16px;
+  border: solid 1px #555;
+  color: #ffe500;
+  transition: all ease 0.3s;
+}
+
+.animated-button-2::after {
+  position: absolute;
+  top: 30%;
+  right: 0.6em;
+  content: "»";
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.animated-button-2:hover {
+  padding: 20px 60px 20px 20px;
+}
+
+.animated-button-2:hover::after {
+  right: 1.2em;
+  opacity: 1;
+}
