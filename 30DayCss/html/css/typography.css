@@ -5,6 +5,7 @@
   text-transform: uppercase;
   color: #00b3b4;
   text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0 rgba(0, 0, 0, 0.1);
+  line-height: 100%;
 }
 
 .threedee-typo {
@@ -26,4 +27,5 @@
     9px 9px #890920,
     10px 10px #890920,
     11px 11px 15px rgba(0, 0, 0, 0.5);
+  line-height: 100%;
 }

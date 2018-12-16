@@ -1,7 +1,7 @@
 .sandbox img {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
-  width: 400px;
+  width: auto;
 }
 
 .sandbox img:hover {
@@ -16,4 +16,34 @@
 .grayscale:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.blur {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.blur:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+.invert {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.invert:hover {
+  -webkit-filter: invert(0);
+  filter: invert(0);
+}
+
+.sepia {
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+
+.sepia:hover {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
 }
