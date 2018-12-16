@@ -1,6 +1,5 @@
 @media print {
 
-  /* HIDE UNWANTED ELEMENTS */
   body::before,
   .sandbox::before,
   .sandbox::after,
@@ -13,7 +12,6 @@
     box-shadow: none;
   }
 
-  /* GLOBAL RESET */
   body {
     font-family: Georgia, serif;
     font-size: 16pt;
@@ -22,7 +20,6 @@
     color: #000;
   }
 
-  /* LAYOUT RESET */
   .sandbox,
   section,
   footer {
@@ -38,7 +35,6 @@
     border: none;
   }
 
-  /* SPECIFICS */
   h1, h2, h3, h4, h5, h6 {
     color: #000;
     font-size: 24pt;
@@ -52,6 +48,7 @@
     text-align: center;
     width: 100%;
     transform: rotate(0);
+    text-shadow: none;
   }
 
   h1 small {
