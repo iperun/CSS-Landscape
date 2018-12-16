@@ -1,0 +1,19 @@
+.sandbox img {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  width: 400px;
+}
+
+.sandbox img:hover {
+  cursor: crosshair;
+}
+
+.grayscale {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
