@@ -1,0 +1,13 @@
+* {
+  background: white !important;
+  color: #000 !important;
+  line-height: 1.5em !important
+}
+
+.course-files {
+  display: none;
+}
+
+.sandbox h2 {
+  display: none !important
+}
