@@ -1,3 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-content {
+  min-height: 100%;
+  /* same measurement as footer */
+  margin-bottom: -120px;
+}
+
+.page-content::after {
+  content: "";
+  display: block;
+}
+
+footer, .page-content::after {
+  height: 120px;
+}
+
 footer {
   position: relative;
   background: #e7eef1;
@@ -9,8 +29,4 @@ footer {
   max-width: 960px;
   margin: 0 auto;
   font-size: 1rem;
-}
-
-.Lorem {
-  padding: 200px 10px;
 }
