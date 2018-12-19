@@ -1,0 +1,16 @@
+footer {
+  position: relative;
+  background: #e7eef1;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #333;
+  width: 60%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.Lorem {
+  padding: 200px 10px;
+}
