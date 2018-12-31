@@ -1,0 +1,7 @@
+@supports (border-radius: 100px) {
+  .circle {
+    width: 60px;
+    border-radius: 100px;
+    border: 1px solid black;
+  }
+}
